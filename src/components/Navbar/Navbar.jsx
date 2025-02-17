@@ -8,10 +8,10 @@ const Navbar = () => {
           <NavLink to='/' className="bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white font-bold">Statistics</NavLink>
         </li>,
         <li key="applied-jobs">
-          <a>Applied Jobs</a>
+          <NavLink to='/appliedjobs' className="bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white font-bold">Applied Jobs</NavLink>
         </li>,
         <li key="blog">
-          <a>Blog</a>
+          <NavLink to='' className="bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white font-bold">Blog</NavLink>
         </li>,
         
       ];

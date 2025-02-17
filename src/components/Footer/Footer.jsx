@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-[#1A1919] text-white">
-    <footer className="grid-cols-5 gap-5 p-10 text-white footer md:grid">
+    <footer className="gap-5 p-10 text-white sm:grid-cols-2 md:grid-cols-5 footer md:grid">
     <aside>
     <h1 className="footer-title">CareerHub</h1>
     <p className="text-justify footer-text">
@@ -54,7 +54,7 @@ const Footer = () => {
 
       
     </footer>
-    <div className="px-10  divider divider-info"></div>
+    <div className="px-10 divider divider-info"></div>
 
       <div className="items-center justify-between px-10 py-4 footer d-flex">
         <p className="">

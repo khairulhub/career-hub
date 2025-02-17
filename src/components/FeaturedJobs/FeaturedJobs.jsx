@@ -9,7 +9,7 @@ const FeaturedJobs = () => {
     useEffect(()=>{
         fetch(api)
         .then(res => res.json())
-        .then(data => setFeaturedJobs(data), console.log(featuredJobs))
+        .then(data => setFeaturedJobs(data))
     }, []);
     return (
         <div className='container mx-auto'>
